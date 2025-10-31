@@ -6,27 +6,11 @@ This readme file was generated on 2025-10-30 by Adara Thornton
 Residential energy consumption in Calgary from 2019 by city ward and dwelling type. These data look at carbon emissions for 2019 related to energy consumption in Calgary from residential buildings to assess how sustainable housing practices are. Four dwelling types are assessed; single family homes, duplexes, townhouses and apartments. These dwelling types were assessed for overall contribution per captia and overall for the ward totals. 
 
 ## Author/Principal Investigator Information
-Name: Adara Thornton
-Institution: University of Calgary
+Name: Adara Thornton 
+Institution: University of Calgary 
 Email: adara.thornton@ucalgary.ca
 
-## Author/Associate or Co-investigator Information
-Name: 
-ORCID:
-Institution: 
-Address: 
-Email: 
-
 Data retrieved from Calgary Open Data and Natural Resources Canada 2025-09-22
-
-
-# SHARING/ACCESS INFORMATION
-
-* Licenses/restrictions placed on the data: 
-* Links/relationships to ancillary data sets: 
-* Was data derived from another source?
-Data was derived from data retreived from Calgary Open Data and Natural Resources Canada data, both are publically available.
-* Recommended citation for this dataset: 
 
 
 # DATA & FILE OVERVIEW
@@ -41,7 +25,6 @@ Map-Output contains the two map layouts created from these data. CarbonEmissions
 # METHODOLOGICAL INFORMATION
 
 ## Description of methods used for collection/generation of data: 
-*include links or references to publications or other documentation containing experimental design or protocols used in data collection*
 Data was retrieved from census information from City of Calgary and Natural Resources Canada.
 
 ## Methods for processing the data: 
@@ -49,12 +32,6 @@ From the retrieved data, four dwelling types were assigned to all the dwellings 
 
 ## Instrument- or software-specific information needed to interpret the data: 
 Using microsoft excel for the spreadsheets is ideal as most of the files have multiple sheets in them. GIS software will be needed to use the Community-District-Boundaries shapefile.
-
-*include any additional methodological information needed to interpret and/or use the data, as appropriate*
-* Standards and calibration information, if appropriate: 
-* Environmental/experimental conditions: 
-* Describe any quality-assurance procedures performed on the data: 
-* People involved with sample collection, processing, analysis and/or submission: 
 
 
 # DATA-SPECIFIC INFORMATION FOR: Calgary-Energy-Consumption2019
@@ -96,7 +73,9 @@ Table 2.1a:
 Has 2 main variables broken down into multiple variables.
 1. Main heating source: Main sources of energy for heating residential dwellings by province.
 2. Type of energy source used by household: Overall energy source for residential dwellings by province.
-
 Table 3.1a:
 10 variables but only one was used stated below. 
-Type of dwelling: states the type of dwelling and amount of energy used by dwelling type in each province. 
+Type of dwelling: states the type of dwelling and amount of energy used by dwelling type in each province.
+
+# DATA-SPECIFIC INFORMATION FOR: CalgaryEnergyEmissions2019ByWard
+Shapefile that has the data from the 'For ArcGIS' sheet in the Calgary-Energy-Consumption2019 file joined to the shapefile of the Calgary wards.
